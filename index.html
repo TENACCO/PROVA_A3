@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+
+header {
+            background-color:#333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 9999;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: px; /* Ajuste o valor conforme necessário */
+            display: flex;
+            position: relative;
+            background-image: url(https://github.com/TENACCO/PROVA_A3/blob/main/LOGO-FMP-SC.png?raw=true);
+            background-size: 399px 146px; /* Define as dimensões da imagem de fundo */
+            background-position: center;
+            background-attachment: fixed; 
+            background-repeat: no-repeat; 
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Para garantir que o body tenha altura mínima de 100% da altura da janela */            
+        }
+        
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            padding: 10px 0;
+            width: 100px; /* Para ocupar toda a largura do body */
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 20px;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Adicionando um efeito de hover ao passar o mouse sobre os links */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding-top: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Adicionando um fundo semi-transparente ao conteúdo */
+        }
+
+        .background-image {
+            position: absolute;
+            top: 50px; /* Ajuste o valor conforme necessário */
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1; /* Para garantir que a imagem de fundo fique atrás do conteúdo */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PROVA A3 | Pratica de Programação WEB | Profº Leandro Pickler</h1>
+        <h3>Discente: Júlio César A. Santos | 1ª FASE 2024.1 | FMP/SC</h3>
+    </header>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="sobre.html">SOBRE</a>
+        <a href="contato.html">CONTATO</a>
+    </nav>
+    <div class="container">
+        <!-- Conteúdo dinâmico vai aqui -->
+    </div>
+</body>
+</html>
